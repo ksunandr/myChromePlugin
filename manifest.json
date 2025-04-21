@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Clickable Text Plugin",
+  "name": "Sequence Display",
   "version": "1.0",
-  "description": "Changes text in the corner when icon is clicked",
+  "description": "Shows a shuffled sequence when clicked",
   "action": {
-    "default_title": "Click to change text"
+    "default_title": "Click to show sequence"
   },
   "permissions": ["scripting", "tabs"],
   "background": {
