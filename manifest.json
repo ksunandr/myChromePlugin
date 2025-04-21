@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Clickable Text Plugin",
+  "version": "1.0",
+  "description": "Changes text in the corner when icon is clicked",
+  "action": {
+    "default_title": "Click to change text"
+  },
+  "permissions": ["scripting", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
